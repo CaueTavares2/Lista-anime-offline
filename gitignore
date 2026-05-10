@@ -1,0 +1,25 @@
+# Dados pessoais — não subir para o repositório
+animes.json
+animes_backup.json
+animes_backup_*.json
+
+# Capas baixadas
+assets/covers/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
