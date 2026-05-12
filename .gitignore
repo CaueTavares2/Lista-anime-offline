@@ -1,25 +1,28 @@
-# Dados pessoais — não subir para o repositório
+# ── Dados pessoais do usuário — NÃO subir para o repositório ──────────────────
 animes.json
 animes_backup.json
 animes_backup_*.json
+.app_meta.json
 
-# Capas baixadas
+# Capas baixadas localmente
 assets/covers/
 
-# PyInstaller
+# ── PyInstaller ────────────────────────────────────────────────────────────────
 dist/
 build/
 *.spec
 
-# Python
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 .env
 venv/
 .venv/
+env/
 
-# OS
+# ── OS ────────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 desktop.ini
