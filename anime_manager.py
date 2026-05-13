@@ -178,4 +178,5 @@ class AnimeManagerV3(ctk.CTk):
         if RPC_AVAILABLE and self.db_data.get('rpc', True):
             try:
                 self.rpc = Presence(Env.CLIENT_ID)
-               
+            except Exception as e:
+        print(f"Erro ao atualizar RPC: {e}")
